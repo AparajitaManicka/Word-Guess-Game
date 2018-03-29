@@ -1,0 +1,47 @@
+ body {
+            font-family: 'Times New Roman', Times, serif;
+            background: darkred;
+            font-size: 25px;
+            color: white;
+        }
+
+        /* Keep it simple - improvement would be to not display characters */
+
+        .letter {
+            display: inline-block;
+            list-style: none;
+            width: 20px;
+            margin: 0 5px;
+            border-bottom: 1px solid black;
+            text-align: center;
+            color: darkred;
+        }
+
+        .current-word {
+            list-style: none;
+        }
+
+        .output {
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+
+        .correct {
+            background-color: black;
+            transition: all 1s ease;
+        }
+
+        .error {
+            color: black;
+            opacity: 1;
+        }
+
+        .warning {
+            color: black;
+            opacity: 1;
+        }
+
+        .win {
+            color: black;
+            opacity: 1;
+        }
